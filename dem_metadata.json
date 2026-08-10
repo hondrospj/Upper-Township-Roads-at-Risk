@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Upper Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Upper Township boundary, adaptively resampled to 8.5 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 2.6034643674080686,
+  "pixelSizeFeet": 8.54154976180333,
+  "adaptiveResolution": true,
+  "width": 3712,
+  "height": 4312,
+  "nodata": -999999,
+  "minMeters": -1.427,
+  "maxMeters": 12.312,
+  "meanMeters": 1.58,
+  "stdDevMeters": 2.572,
+  "minFeet": -4.681758530165,
+  "maxFeet": 40.39370078724,
+  "webMercatorBounds": [
+    -8318846.948401,
+    4745951.811582737,
+    -8309182.888669182,
+    4757177.949935
+  ],
+  "leafletBounds": [
+    [
+      39.1693206,
+      -74.7294736
+    ],
+    [
+      39.2474434,
+      -74.6426732
+    ]
+  ],
+  "files": {
+    "demCog": "upper_township_dem_5ft_cog.tif",
+    "hillshadeCog": "upper_township_hillshade_cog.tif",
+    "hillshadePng": "upper_township_hillshade.png",
+    "boundaryGeojson": "upper_township_boundary.geojson"
+  }
+}
